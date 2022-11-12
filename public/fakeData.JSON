@@ -1,0 +1,21 @@
+[
+    {
+      "id":1,  "name":"Cycling", "benefits":"Cycling can help to protect you from serious diseases such as stroke, heart attack, some cancers, depression, diabetes, obesity and arthritis.", "spentTime":30, "img":"./img/cycling.jpg"
+    },
+    {
+      "id":2,  "name":"Motor bike", "benefits":"Motorcycling is the act of riding a motorcycle. For some people, motorcycling may be the only affordable form of individual motorized transportation, and small-displacement.", "spentTime":20, "img":"./img/bike.jpg"
+    },
+    {
+      "id":3,  "name":"UniCycling", "benefits":"The simple explanation is that riding a unicycle is difficult and unnatural. The steps required to learn how to ride one are not obvious and pose obstacles that, for most, are prohibitive.", "spentTime":35, "img":"./img/uin.jpg"
+    },
+    {
+      "id":4,  "name":"SufBoard Ride", "benefits":"The term surfing refers to a person riding a wave using a board, regardless of the stance. There are several types of boards..", "spentTime":40, "img":"./img/surfboard.jpg"
+    },
+    {
+      "id":5,  "name":"Horse Ride", "benefits":"Eventing — riders compete in three types of races, dressage, cross-country and show jumping, in a single competition.", "spentTime":25, "img":"./img/horse.jpg"
+    },
+    {
+      "id":6,  "name":"Elephant Ride", "benefits":"What happens if you ride an elephant?Image result for elephant ride benefitsElephants' spines cannot support the weight of people and doing so all day can lead to permanent spinal injuries.", "spentTime":40, "img":"./img/elephent.jpg"
+    }
+    
+]
