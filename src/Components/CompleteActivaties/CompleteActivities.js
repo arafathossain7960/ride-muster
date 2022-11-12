@@ -2,9 +2,10 @@ import React from 'react';
 import './CompeleteActivites.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import { POSITION } from 'react-toastify/dist/utils';
+
+
 const CompleteActivities = () => {
-    
+    // react toast function
 const handleToast =()=>{
     toast.success("Activities complete!!!",{
         position:"top-center",

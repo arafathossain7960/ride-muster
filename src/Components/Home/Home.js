@@ -27,13 +27,11 @@ const Home = () => {
         <div id='home'>
             
              <div className='homeContainer'>
-               
               <div>
               <Header></Header>
               <AllRides rides={rides}
               ridingTimingHandler={ridingTimingHandler}
               >
-
               </AllRides>
                
                </div>

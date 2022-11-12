@@ -1,7 +1,10 @@
 import React from 'react';
 import './Ride.css';
+
 const Ride = ({ride, ridingTimingHandler}) => {
+    
     const {name, img, benefits, spentTime}=ride;
+
     return (
         <div className='singleRide'>
             <img src={img} alt="Rider" />
