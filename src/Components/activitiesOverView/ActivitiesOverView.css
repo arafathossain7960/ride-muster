@@ -1,0 +1,11 @@
+.activitiesOverView p{
+    background-color: white;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+.activitiesOverView h4{
+    margin: 10px 5px -3px 5px;
+    font-weight: 500;
+}

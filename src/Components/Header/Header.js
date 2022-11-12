@@ -9,6 +9,7 @@ const Header = () => {
                 <img id='logo' src={img} alt="" />
                 <h1>Ride Muster</h1>
             </div>
+            <p className='headerInfo'>Go ahead, enjoy your riding journey...</p>
         
         </div>
     );

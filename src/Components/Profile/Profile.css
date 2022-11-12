@@ -1,0 +1,16 @@
+.profile img{
+height: 150px;
+border-radius: 10px 10px 0px 0px;
+
+}
+.profile .info{
+    padding: 0px 10px;
+}
+.info h3{
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+.info p{
+    font-size: 15px;
+    font-weight: 300;
+}

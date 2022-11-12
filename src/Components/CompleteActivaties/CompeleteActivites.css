@@ -1,0 +1,18 @@
+.completeActivities button{
+ bottom: 0;
+text-align: center;
+margin-top: 20px;
+padding: 15px 10px;
+width: 100%;
+border: none;
+background-color: gray;
+transition: 0.8s;
+color: white;
+border-radius:5px  5px 0px 0px;
+     
+}
+.completeActivities button:hover{
+    background-color: lightgreen;
+    color: black;
+    font-weight: 700;
+}

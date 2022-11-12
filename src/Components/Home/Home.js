@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AllRides from '../AllRides/AllRides';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import ReportSheet from '../ReportSheet/ReportSheet';
 import './Home.css';
@@ -36,14 +37,16 @@ const Home = () => {
                
                </div>
           
-               <div>
+               <div className='homeReport'>
                  <ReportSheet
                  ridingTime={ridingTime}
                  ></ReportSheet>
                </div>
             </div>
+            
         </div>
     );
 };
+
 
 export default Home;

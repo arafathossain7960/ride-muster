@@ -7,7 +7,7 @@ const Ride = ({ride, ridingTimingHandler}) => {
             <img src={img} alt="Rider" />
          <div className='rideInfo'>
             <h4>{name}</h4>
-            <p>{benefits.slice(0, 35)}</p>
+            <p>{benefits.slice(0, 30)}</p>
             <p> During :{spentTime} m</p>
          </div>
             <button onClick={()=>ridingTimingHandler(spentTime)}>Join To Ride</button>
