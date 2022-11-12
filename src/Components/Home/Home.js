@@ -6,7 +6,7 @@ import './Home.css';
 
 const Home = () => {
     const [rides, setRide]=useState([]);
-
+    const [ridingTime, setRidingTime]=useState(0);
 
     useEffect(()=>{
         fetch('fakeData.JSON')
@@ -14,6 +14,13 @@ const Home = () => {
         .then(data => setRide(data))
     },[]);
     
+    // Ride timing handler
+    const ridingTimingHandler =(minutes)=>{
+        const newRidingTime = ridingTime + minutes;
+        setRidingTime(newRidingTime)
+
+    } 
+
     return (
         <div>
             
@@ -21,14 +28,18 @@ const Home = () => {
                
               <div>
               <Header></Header>
-              <AllRides rides={rides}>
+              <AllRides rides={rides}
+              ridingTimingHandler={ridingTimingHandler}
+              >
 
               </AllRides>
                
                </div>
           
                <div>
-                 <ReportSheet></ReportSheet>
+                 <ReportSheet
+                 ridingTime={ridingTime}
+                 ></ReportSheet>
                </div>
             </div>
         </div>
