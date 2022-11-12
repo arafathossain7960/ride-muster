@@ -1,9 +1,16 @@
 #logo{
-height: 150px;
+height: 120px;
+width: 120px;
 }
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+}
+.header h1{
+    margin-left:20px ;
+    font-size: 30px;
+    color: lightgreen;
+    font-weight: 800;
 }

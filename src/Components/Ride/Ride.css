@@ -1,0 +1,39 @@
+.singleRide{
+    padding: 0px;
+    /* border: 0.5px solid lightgreen; */
+    /* box-shadow: 10px 10px 30px lightgreen; */
+    background-image: linear-gradient(lightgreen, lightgray)
+}
+.singleRide img{
+    height: 130px;
+    width: 100%;
+    border-radius:0px  0px 8px 8px;
+}
+.singleRide img:hover{
+   opacity: 10px;
+}
+.rideInfo{
+    padding: 0px 8px;
+}
+.rideInfo p{
+    font-size:11px;
+    margin-bottom: -5px;
+}
+.singleRide button{
+bottom: 0;
+text-align: center;
+margin-top: 20px;
+padding: 5px 10px;
+width: 100%;
+border: none;
+background-color: gray;
+transition: 0.8s;
+color: white;
+border-radius:5px  5px 0px 0px;
+}
+.singleRide button:hover{
+    background-color: lightgreen;
+    color: black;
+    font-weight: 700;
+    
+}
