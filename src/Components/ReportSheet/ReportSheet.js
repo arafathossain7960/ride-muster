@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { getMinute, setMinute } from '../../helpers/localStrorage';
+import CompleteActivities from '../CompleteActivaties/CompleteActivities';
 import './ReportSheet.css';
 const ReportSheet = ({ ridingTime}) => {
     const initialMinute =  getMinute('brakeTime');
@@ -29,7 +30,7 @@ let [brakingTime, setBrakingTime]=useState(initialMinute || 0);
             <h1>Riding Time : {ridingTime}</h1>
             <h3>this is a cart sheet</h3>
             <h5>Total brake time : {brakingTime}</h5>
-            <button>Complete Riding</button>
+            <CompleteActivities></CompleteActivities>
         </div>
     );
 };
